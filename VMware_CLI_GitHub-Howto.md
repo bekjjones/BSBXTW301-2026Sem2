@@ -1,20 +1,20 @@
-#VMware how-to guide for CLI (Command Line Interface) to connect to a GitHub Repo
+# VMware how-to guide for CLI (Command Line Interface) to connect to a GitHub Repo
 
-##COMMANDS
+## COMMANDS
 
-###INSTALL GITHUB & GIT, LOGIN & CLONE REPO
+### INSTALL GITHUB & GIT, LOGIN & CLONE REPO
 ```
 sudo apt install gh
 sudo apt install git
 gh auth login
 gh repo clone <account_name>/<repo_name>
 ```
-###INSTALL A COMMAND LINE EDITOR
+### INSTALL A COMMAND LINE EDITOR
 ```
 sudo apt install vim
 ```
 
-###EDIT A FILE THEN COMMIT & PUSH TO GITHUB REPO
+### EDIT A FILE THEN COMMIT & PUSH TO GITHUB REPO
 ```
 vim test.html
 git add .
@@ -22,7 +22,7 @@ git commit
 git push origin
 ```
 
-##INFO ABOUT EACH COMMAND & EXAMPLES
+## INFO ABOUT EACH COMMAND & EXAMPLES
 
 ```
 sudo apt install gh
@@ -181,7 +181,7 @@ ls
  Test          'test_new_file - Copy (2).txt'   test_new_file.txt
 ```
 
-##INSTALL VIM: A command line editor
+## INSTALL VIM: A command line editor
 
 ```
 sudo apt install vim
@@ -244,13 +244,13 @@ Processing triggers for gnome-menus (3.36.0-1ubuntu3) ...
 Processing triggers for man-db (2.10.2-1) ...
 ```
 
-EDIT A FILE
+## EDIT A FILE
 ```
 vim test.html
 ```
 *Commands for editing within VIM the command line editor can be seen at the bottom of the window*
 
-ADD, COMMIT & PUSH TO GITHUB REPO
+## ADD, COMMIT & PUSH TO GITHUB REPO
 ```
 git add .
 git commit
